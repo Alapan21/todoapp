@@ -26,6 +26,7 @@ app.on('ready', function () {
     mainWindow = new BrowserWindow({
         width: 500,
         height: 500,
+        icon: __dirname + './assets/icons/win/icon.ico',
         webPreferences: {
             nodeIntegration: true
         }
